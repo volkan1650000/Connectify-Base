@@ -87,3 +87,10 @@ Author: Volkan
 I developed the core functionalities, database integration, and backend logic for this project, aiming to showcase my expertise in Java, SQL, JDBC; backend development in simple words. The JavaFX-related things like locating the buttons, setting the size, changing the background color and etc were created with guidance and support from an AI assistant (ChatGPT), I handled the backend within the UI package too.
 
 
+Common problems
+
+1-The profile tab needs to be closed and reopened after editing something on it (the changes in the like and comments count on the posts after commenting or liking, don't show up on the post unless you refresh the tab the same way I said above).
+
+2-In order for the comments to appear after commenting on a post, you need to close the comment and reopen it like the profile tab.
+
+
