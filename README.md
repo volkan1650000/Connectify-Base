@@ -15,8 +15,6 @@ Posts and Feeds:
 -Create Posts: Users can create and share posts, optionally with pictures.
 -View Posts: Users can see their own posts and posts from others in a feed-like manner.
 -Interact with Posts: Like, comment, and delete their own posts.
-
-# Others:
 -Search Functionality: Users can search for other users by their usernames.
 -Responsive UI: The app has a user-friendly interface for navigation and interaction.
 
