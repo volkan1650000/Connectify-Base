@@ -1,9 +1,9 @@
-**SocialMediaApp**
+## SocialMediaApp
 
-#Overview
+# Overview
 The SocialMediaApp is an Instagram-like platform that enables users to create profiles, share posts, comment on content, like posts, and send messages to other users. It includes features such as profile editing, post creation, liking, commenting, and real-time messaging functionalities.
 
-#User Authentication and Profiles :
+# User Authentication and Profiles :
 -Login/Logout: Users can log in and out of the application.
 -Profile Management: Users can view and edit their profiles.
 -Change Profile Details: Including username, password, email, profile picture, and bio.
@@ -16,12 +16,12 @@ Posts and Feeds:
 -View Posts: Users can see their own posts and posts from others in a feed-like manner.
 -Interact with Posts: Like, comment, and delete their own posts.
 
-#Others:
+# Others:
 -Search Functionality: Users can search for other users by their usernames.
 -Responsive UI: The app has a user-friendly interface for navigation and interaction.
 
 
-#Usage
+# Usage
 To use the app, you need to create these tables or simply copy paste these on a SQL (You don't need to add the column created_at, its just for the security for now, the post-message-user-like-comment creation date might be brought in the app in the upcoming updates) :
 
 create table users(
@@ -75,19 +75,19 @@ this.connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/
 and then simply go to the runner package and Run the program through the Main class :=)
 
 
-#Technologies Used
+# Technologies Used
 -Java 11
 -JavaFX 11.0.2
 -SQL (PostgreSQL)
 -JDBC (Java Database Connectivity)
 
-#Author: Volkan
+# Author: Volkan
 
 
 I developed the core functionalities, database integration, and backend logic for this project, aiming to showcase my expertise in Java, SQL, JDBC; backend development in simple words. The JavaFX-related things like locating the buttons, setting the size, changing the background color and etc were created with guidance and support from an AI assistant (ChatGPT), I handled the backend within the UI package too.
 
 
-#Common problems
+# Common problems
 
 1-The profile tab needs to be closed and reopened after editing something on it (the changes in the like and comments count on the posts after commenting or liking, don't show up on the post unless you refresh the tab the same way I said above).
 
