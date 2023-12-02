@@ -1,4 +1,4 @@
-##SocialMediaApp
+**SocialMediaApp**
 
 #Overview
 The SocialMediaApp is an Instagram-like platform that enables users to create profiles, share posts, comment on content, like posts, and send messages to other users. It includes features such as profile editing, post creation, liking, commenting, and real-time messaging functionalities.
